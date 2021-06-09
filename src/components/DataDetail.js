@@ -1,6 +1,7 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
 import { getDate, isEven, textToBigCurrency } from '../helpers/componentHelp';
+import style from '../styles/DataDetail.module.css';
 
 const DataDetail = ({
   data,
@@ -12,7 +13,7 @@ const DataDetail = ({
   const keys = Object.keys(data);
   if (keys.length > 1) {
     v1 = data[keys[0]];
-    k2 = getDate(data[keys[1]]); 
+    k2 = getDate(data[keys[1]]);
   } else {
     v1 = data[keys[0]];
     k2 = null;

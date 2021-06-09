@@ -19,12 +19,7 @@ const Paginator = ({
       <PagePrev className={style.pageChange} />
     </a>
     <p>
-      Page
-      {page}
-      {' '}
-      /
-      {' '}
-      40
+      {`Page ${page}/40`}
     </p>
     <a
       role="button"

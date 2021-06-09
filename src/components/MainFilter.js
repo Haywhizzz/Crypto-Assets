@@ -27,3 +27,5 @@ const MainFilter = ({
 MainFilter.propTypes = {
   changeMainFilter: PropTypes.func.isRequired,
 };
+
+export default MainFilter;

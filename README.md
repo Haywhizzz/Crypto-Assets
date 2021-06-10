@@ -16,7 +16,7 @@ Users will browse through a list of Crypto Assets, Filtered by Market Cap, ATH, 
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://crypto-assets.netlify.app/)
 
 ## User Story:
 

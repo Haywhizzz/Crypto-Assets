@@ -56,7 +56,7 @@ const RenderDashBoard = ({
   const handleInputSearch = event => {
     setInput(event.target.value);
     const hits = getInputHints(event.target.value, state.crypto);
-    setKs(hits); 
+    setKs(hits);
     if (hits.length > 0) {
       changePage(hits[0].idpage);
     } else {
@@ -108,9 +108,6 @@ const RenderDashBoard = ({
           />
         </Link>
         <div className={style.dashGap}>
-          <a className={style.myBrand} href="https://www.carlosanriquez.com">
-            <img src="https://img.shields.io/badge/Developed%20by-Carlos%20Anriquez-red" alt="carlos anriquez" />
-          </a>
           <p>
             stats by
             {apiToKey(state.mainFilter, mainFilterCat)}

@@ -39,10 +39,7 @@ class App extends React.Component {
     return (
       <Router>
         <div className={styles.appContainer}>
-          <h1 className={styles.brand}>CryptoLog</h1>
-          <a className={styles.myRepo} href="https://github.com/Ceci007/catalogue-of-statistics">
-            <img src="https://img.shields.io/badge/Github-Repo-green" alt="repo" />
-          </a>
+          <h1 className={styles.brand}>CryptoAssets</h1>
           <Switch>
             <Route exact path="/" component={DashBoard} />
             <Route

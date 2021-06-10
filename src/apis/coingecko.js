@@ -23,7 +23,7 @@ const fetchApiCryptoList = async ({
 
     return obj;
   } catch (err) {
-    throw ('Something went wrong with fetching book list ', err);
+    throw ('Something went wrong with fetching list ', err);
   }
 };
 

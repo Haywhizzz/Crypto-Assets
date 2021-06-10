@@ -6,12 +6,10 @@
 }
 
 .leftBox {
-  position: relative;
   width: 50%;
 }
 
 .rightBox {
-  position: relative;
   width: 50%;
 }
 
@@ -21,7 +19,7 @@
   font-weight: 700;
   font-stretch: normal;
   font-style: normal;
-  line-height: 2rem;
+  line-height: 2.5rem;
   letter-spacing: 1px;
   text-align: left;
   color: var(--white);
@@ -35,10 +33,9 @@
 }
 
 .marketCap span {
-  font-family: Lato, sans-serif;
   margin-left: 10px;
-  font-weight: 500;
-  font-size: 1rem;
+  font-weight: 700;
+  font-size: 1.1rem;
   letter-spacing: 1px;
   color: var(--white);
   text-transform: uppercase;
@@ -47,10 +44,10 @@
 .rightBox h2 {
   font-family: Lato, sans-serif;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.2rem;
+  line-height: 1.5rem;
   letter-spacing: 1px;
   text-align: left;
   color: var(--white);
@@ -58,11 +55,47 @@
 }
 
 .leftBox img {
-  width: 90px;
+  width: 120px;
+}
+
+.dashGap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 24px;
+  background-color: var(--dark-pink);
+}
+
+.dashGap p {
+  margin-left: 4px;
+  font-family: Lato, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.48px;
+  text-align: left;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.goBack {
+  position: absolute;
+  top: 110%;
+  left: 2%;
+  width: 25px;
+  height: 25px;
+  fill: #fff;
 }
 
 @media screen and (min-width: 768px) {
   .mainAsset {
     height: 24vh;
+  }
+
+  .dashGap {
+    height: 2rem;
   }
 }

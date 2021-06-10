@@ -7,7 +7,7 @@ import {
 import DashBoard from '../container/DashBoard';
 import { updateApiRenderList } from '../actions/index';
 import AssetDetailsSafe from '../container/AssetDetailsSafe';
-import styles from '../styles/App.module.css';
+import style from '../styles/App.module.css';
 
 class App extends React.Component {
   constructor(props) {
@@ -38,8 +38,8 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <div className={styles.appContainer}>
-          <h1 className={styles.brand}>CryptoAssets</h1>
+        <div className={style.appContainer}>
+          <h1 className={style.brand}>CryptoAssets</h1>
           <Switch>
             <Route exact path="/" component={DashBoard} />
             <Route

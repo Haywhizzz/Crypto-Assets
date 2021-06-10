@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { PropTypes } from 'prop-types';
 import { Link } from 'react-router-dom';
 import DashAsset from '../components/DashAsset';
-import MainAsset from '../components/MainAsset';
+import MainAsset from './components/MainAsset';
 import MainFilter from '../components/MainFilter';
 import CurrencyFilter from '../components/CurrencyFilter';
 import Paginator from '../components/Paginator';

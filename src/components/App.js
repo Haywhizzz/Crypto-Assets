@@ -7,7 +7,7 @@ import {
 import DashBoard from '../container/DashBoard';
 import { updateApiRenderList } from '../actions/index';
 import AssetDetailsSafe from '../container/AssetDetailsSafe';
-import style from '../App.module.css';
+import style from '../components/App.module.css';
 
 class App extends React.Component {
   constructor(props) {

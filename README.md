@@ -2,7 +2,7 @@
 
 > Build the front-end of an application to organize a browsable list of Crypto Assets that can be filtered and accessed to each Asset's details.
 
-![screenshot](../assets/crypto-app.png)
+![screenshot](./crypto-app.png)
 
 Users will browse through a list of Crypto Assets, Filtered by Market Cap, ATH, total Volume in higher to lower order. Also, the user can filter by cryptocurrency name.
 

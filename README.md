@@ -1,4 +1,4 @@
-# React Redux Capstone: Catalogue of Statistics 
+# React Redux Capstone: Crypto-Assets
 
 > Build the front-end of an application to organize a browsable list of Crypto Assets that can be filtered and accessed to each Asset's details.
 

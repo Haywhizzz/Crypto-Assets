@@ -18,26 +18,6 @@ Users will browse through a list of Crypto Assets, Filtered by Market Cap, ATH, 
 
 [Live Demo Link](https://crypto-assets.netlify.app/)
 
-## User Story:
-
-### User will access the URL
-- The Single page renders with main Cryptocurrencies ordered by market cap by default.
-- In the top center of the page navbar, the user will be able to select the filter options:
-        ○ Market Cap
-        ○ Circulating Supply
-        ○ 24h change vs. ATH%
-- Once the filter is selected, the page would render the top 5 cryptocurrencies with the main statistics showing in the main boxes, ordered from higher to lower statistical value.
-- In the top left of the page navbar, the user will select the coins' currency.
-
-### User can click/tab on any Cryptocurrency
-- On Asset selected (click/tab) a new page will show displaying 
-        a. Market Cap
-        b. Last Price
-        c. Volume
-        d. ATH
-        e. High 24hs
-        f. Low 24hs
-
 ## Getting Started
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
